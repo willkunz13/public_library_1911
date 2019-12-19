@@ -16,7 +16,7 @@ class Author
 		book_info[:title] = title
 		book_info[:publication_date] = publication_date
 		books << Book.new(book_info)
-		Book.new(book_info)
+		books.last
 	end
 		
 end

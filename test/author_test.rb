@@ -22,7 +22,6 @@ class AuthorTest < Minitest::Test
 		assert_equal 1, @charlotte_bronte.books.size
 		@charlotte_bronte.write("Villette", "1853")
 		assert_equal 2, @charlotte_bronte.books.size
-		binding.pry
 	end
 
 end
